@@ -16,8 +16,8 @@ def add():
     data = request.get_json()
 
     # Retrieve the numbers to be added
-    num1 = data['num1']
-    num2 = data['num2']
+    num1 = data['first']
+    num2 = data['second']
 
     # Perform the addition operation
     result = num1 + num2
